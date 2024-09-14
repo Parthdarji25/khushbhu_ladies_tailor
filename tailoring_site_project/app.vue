@@ -120,7 +120,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 // State to track whether the mobile menu is open
 const isMenuOpen = ref(false);

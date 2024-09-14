@@ -123,15 +123,8 @@
     </div>
   </section>
 
-  <!-- Call to Action Section -->
-  <section class="py-16 bg-indigo-600 text-white text-center">
-    <h3 class="text-4xl font-bold mb-6">Ready to Look Your Best?</h3>
-    <NuxtLink
-      to="/contact"
-      class="px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-gray-200"
-      >Contact Us</NuxtLink
-    >
-  </section>
+  <HomePageBanner />
+  <GoogleReview />
 </template>
 
 <script setup>
